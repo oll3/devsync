@@ -1,0 +1,7 @@
+[package]
+name = "devsync"
+version = "0.1.0"
+authors = ["Olle Sandberg <olle.sandberg@dinbox.se>"]
+
+[dependencies]
+getopts = "0.2"
