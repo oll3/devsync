@@ -25,7 +25,7 @@ fn print_usage(program: &str, opts: Options) {
     print!("{}", opts.usage(&brief));
     println!();
     println!("    SIZE values can be given in units 'TiB', 'GiB', 'MiB', 'KiB', or 'B' (default).");
-    println!("    Will run until reaches end of file of either source or destionation.");
+    println!("    Will run until reaches end of file of either source or destination.");
     println!();
 }
 
