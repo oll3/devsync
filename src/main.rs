@@ -198,7 +198,9 @@ where
             total_bytes += cmp_size;
         }
     }
-
+    if !config.dry_run {
+        dest_file.sync_all().expect("sync");
+    }
     println!(
         "Compared {} blocks ({} in total).",
         block_cnt,
